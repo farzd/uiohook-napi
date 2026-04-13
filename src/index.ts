@@ -195,6 +195,7 @@ export const UiohookKey = {
   NumLock: 0x0045,
   ScrollLock: 0x0046,
   PrintScreen: 0x0E37,
+  Fn: 0x0E63,
 } as const
 
 declare interface UiohookNapi {
