@@ -22,7 +22,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "install": "node-gyp-build",
-    "prepare": "tsc && node-gyp rebuild",
+    "prepare": "node-gyp rebuild",
     "prebuild": "prebuildify --napi",
     "build-ts": "tsc",
     "demo": "ts-node src/demo.ts"
