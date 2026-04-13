@@ -81,7 +81,7 @@ web_modules/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist — kept in git for GitHub installs (npm needs compiled TS)
 
 # Gatsby files
 .cache/
